@@ -26,11 +26,11 @@ public class QuizActivity extends Activity {
     private TextView mQuestionTextView;
 
     private TrueFalse[] mQuestionBank = new TrueFalse[] {
-            new TrueFalse(R.string.question_oceans, true),
-            new TrueFalse(R.string.question_mideast, false),
-            new TrueFalse(R.string.question_africa, false),
-            new TrueFalse(R.string.question_americas, true),
-            new TrueFalse(R.string.question_asia, true),
+            new TrueFalse(R.string.question_erection, true),
+            new TrueFalse(R.string.question_true, false),
+            new TrueFalse(R.string.question_keenan, true),
+            new TrueFalse(R.string.question_byron, false),
+            new TrueFalse(R.string.question_kai, true),
     };
 
     private int mCurrentIndex = 0;
